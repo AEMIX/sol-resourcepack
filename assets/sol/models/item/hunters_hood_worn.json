@@ -4,8 +4,44 @@
   "textures": { "0": "sol:item/3d/hunters_hood", "particle": "sol:item/3d/hunters_hood" },
   "elements": [
     {
-      "from": [0, 0, 0],
+      "from": [0, 8, 0],
       "to": [16, 15, 16],
+      "faces": {
+        "down": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "up": { "uv": [0, 8, 8, 16], "texture": "#0" },
+        "north": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "south": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "west": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "east": { "uv": [0, 0, 8, 8], "texture": "#0" }
+      }
+    },
+    {
+      "from": [0, 0, 0],
+      "to": [16, 8, 6],
+      "faces": {
+        "down": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "up": { "uv": [0, 8, 8, 16], "texture": "#0" },
+        "north": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "south": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "west": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "east": { "uv": [0, 0, 8, 8], "texture": "#0" }
+      }
+    },
+    {
+      "from": [0, 2, 6],
+      "to": [3, 8, 14],
+      "faces": {
+        "down": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "up": { "uv": [0, 8, 8, 16], "texture": "#0" },
+        "north": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "south": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "west": { "uv": [0, 0, 8, 8], "texture": "#0" },
+        "east": { "uv": [0, 0, 8, 8], "texture": "#0" }
+      }
+    },
+    {
+      "from": [13, 2, 6],
+      "to": [16, 8, 14],
       "faces": {
         "down": { "uv": [0, 0, 8, 8], "texture": "#0" },
         "up": { "uv": [0, 8, 8, 16], "texture": "#0" },
@@ -28,7 +64,7 @@
       }
     },
     {
-      "from": [-1, 8, 16],
+      "from": [-1, 8, 14],
       "to": [17, 10, 18.5],
       "faces": {
         "down": { "uv": [8, 8, 16, 16], "texture": "#0" },
