@@ -1,3 +1,10 @@
 {
-  "model": { "type": "minecraft:model", "model": "sol:item/cleaver_of_the_first_gate" }
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      { "when": "gui", "model": { "type": "minecraft:model", "model": "sol:item/cleaver_of_the_first_gate_flat" } }
+    ],
+    "fallback": { "type": "minecraft:model", "model": "sol:item/cleaver_of_the_first_gate" }
+  }
 }

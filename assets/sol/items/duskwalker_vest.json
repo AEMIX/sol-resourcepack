@@ -1,3 +1,10 @@
 {
-  "model": { "type": "minecraft:model", "model": "sol:item/duskwalker_vest" }
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      { "when": "gui", "model": { "type": "minecraft:model", "model": "sol:item/duskwalker_vest_flat" } }
+    ],
+    "fallback": { "type": "minecraft:model", "model": "sol:item/duskwalker_vest" }
+  }
 }
