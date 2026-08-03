@@ -1,5 +1,3 @@
 {
-  "layers": {
-    "humanoid": [ { "texture": "sol:duskwalker_mask" } ]
-  }
+  "layers": {}
 }

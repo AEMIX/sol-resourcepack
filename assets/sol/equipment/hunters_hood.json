@@ -1,5 +1,3 @@
 {
-  "layers": {
-    "humanoid": [ { "texture": "sol:hunters_hood" } ]
-  }
+  "layers": {}
 }
