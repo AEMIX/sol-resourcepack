@@ -3,8 +3,7 @@
     "type": "minecraft:select",
     "property": "minecraft:display_context",
     "cases": [
-      { "when": "head", "model": { "type": "minecraft:model", "model": "sol:item/duskwalker_mask_worn" } },
-      { "when": "gui", "model": { "type": "minecraft:model", "model": "sol:item/duskwalker_mask_flat" } }
+      { "when": "head", "model": { "type": "minecraft:model", "model": "sol:item/duskwalker_mask_worn" } }
     ],
     "fallback": { "type": "minecraft:model", "model": "sol:item/duskwalker_mask" }
   }

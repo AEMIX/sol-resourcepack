@@ -3,8 +3,7 @@
     "type": "minecraft:select",
     "property": "minecraft:display_context",
     "cases": [
-      { "when": "head", "model": { "type": "minecraft:model", "model": "sol:item/bulwark_helm_worn" } },
-      { "when": "gui", "model": { "type": "minecraft:model", "model": "sol:item/bulwark_helm_flat" } }
+      { "when": "head", "model": { "type": "minecraft:model", "model": "sol:item/bulwark_helm_worn" } }
     ],
     "fallback": { "type": "minecraft:model", "model": "sol:item/bulwark_helm" }
   }
