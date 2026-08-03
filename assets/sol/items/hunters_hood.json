@@ -1,3 +1,10 @@
 {
-  "model": { "type": "minecraft:model", "model": "sol:item/hunters_hood" }
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      { "when": "head", "model": { "type": "minecraft:model", "model": "sol:item/hunters_hood_worn" } }
+    ],
+    "fallback": { "type": "minecraft:model", "model": "sol:item/hunters_hood" }
+  }
 }
