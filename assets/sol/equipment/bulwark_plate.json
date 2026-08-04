@@ -1,5 +1,5 @@
 {
   "layers": {
-    "humanoid": [ { "texture": "sol:bulwark_plate" }, { "texture": "sol:bulwark_plate_trim" } ]
+    "humanoid": [ { "texture": "sol:bulwark_plate" } ]
   }
 }

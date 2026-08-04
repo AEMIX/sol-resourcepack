@@ -1,5 +1,5 @@
 {
   "layers": {
-    "humanoid": [ { "texture": "sol:hunters_hood" }, { "texture": "sol:hunters_hood_trim" } ]
+    "humanoid": [ { "texture": "sol:hunters_hood" } ]
   }
 }
