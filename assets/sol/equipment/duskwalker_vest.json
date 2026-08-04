@@ -1,5 +1,5 @@
 {
   "layers": {
-    "humanoid": [ { "texture": "sol:duskwalker_vest" } ]
+    "humanoid": [ { "texture": "sol:duskwalker_vest" }, { "texture": "sol:duskwalker_vest_trim" } ]
   }
 }
